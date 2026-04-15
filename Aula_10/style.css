@@ -1,0 +1,15 @@
+h1 {
+    background-color: orange;
+    color: white;
+}
+
+h2 {
+    color: darkred;
+}
+
+p {
+    color: blue;
+}
+a{
+    text-align: right;
+}
