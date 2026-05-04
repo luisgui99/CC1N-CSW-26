@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+}
+.item {
+    flex-grow: 1;
+    text-align: center;
+    padding: 90px;    
+}
+.item1 {
+    background: red;
+}
+.item2 {
+    background: blue;
+}
+.item3 {
+    background: green;
+}
+.item:hover {
+    border-bottom: 3px solid black;
+}
+.item1:hover {
+    background-color: peru;
+}
+.item2:hover {
+    background-color: aquamarine;
+}
+.item3:hover {
+    background-color: greenyellow;
+}
+.container2 {
+    display: flex;
+    justify-content: flex-end;
+}
+.itens {
+    flex-grow: 1;
+    padding: 20px;
+    background: gray;
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.itensdestaque {
+    flex-grow: 2;
+    background: orange;
+}
+.itens:active {
+    background: purple;
+}
